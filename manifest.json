@@ -1,0 +1,13 @@
+{
+  "Name": "> Soma Tilesheets",
+  "Author": "somaraezel",
+  "Version": "1.0.0",
+  "Description": "Tilesheets for Map Mods.",
+  "UniqueID": "somaraezel.SomaTilesheets",
+  "UpdateKeys": [
+    "Nexus: ???"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
