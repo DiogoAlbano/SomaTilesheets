@@ -30,10 +30,10 @@
     <Content Include="assets\png\spring_seasonal_nm_tilesheet.png" />
     <Content Include="assets\png\summer_seasonal_nm_tilesheet.png" />
     <Content Include="assets\png\winter_seasonal_nm_tilesheet.png" />
-    <Content Include="assets\png\__doors_recolor.png" />
-    <Content Include="assets\png\__map.png" />
-    <Content Include="assets\png\__stuff.png" />
-    <Content Include="assets\png\__vanilla_stuff.png" />
+    <Content Include="assets\png\internal_doors_recolor.png" />
+    <Content Include="assets\png\world_map.png" />
+    <Content Include="assets\png\decorations_structures.png" />
+    <Content Include="assets\png\vanilla_decorations_structures.png" />
     <Content Include="content.json" />
     <Content Include="manifest.json" />
   </ItemGroup>

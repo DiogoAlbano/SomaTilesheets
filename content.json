@@ -4,14 +4,14 @@
     {
       "Logname": "Load_png",
       "Action": "Load",
-      "Target": "Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/__doors_recolor, Maps/__stuff, Maps/__vanilla_stuff",
+      "Target": "Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/internal_doors_recolor, Maps/decorations_structures, Maps/vanilla_decorations_structures",
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {
       "Logname": "Set_world_map",
       "Action": "EditImage",
       "Target": "LooseSprites/map",
-      "FromFile": "assets/png/__map.png",
+      "FromFile": "assets/png/world_map.png",
       "When": {
         "HasMod": "somaraezel.NovoMundoChapter1"
       }
@@ -20,7 +20,7 @@
       "Logname": "Edit_Color_Wood_Door_Movement",
       "Action": "EditImage",
       "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/png/__doors_recolor.png",
+      "FromFile": "assets/png/internal_doors_recolor.png",
       "FromArea": {
         "X": 32,
         "Y": 0,
@@ -41,7 +41,7 @@
       "Logname": "Edit_Color_Wood_Hospital_Door_Movement",
       "Action": "EditImage",
       "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/png/__doors_recolor.png",
+      "FromFile": "assets/png/internal_doors_recolor.png",
       "FromArea": {
         "X": 96,
         "Y": 0,
@@ -62,7 +62,7 @@
       "Logname": "Edit_Color_Wood_Door_Setter",
       "Action": "EditImage",
       "Target": "Maps/townInterior",
-      "FromFile": "assets/png/__doors_recolor.png",
+      "FromFile": "assets/png/internal_doors_recolor.png",
       "FromArea": {
         "X": 16,
         "Y": 13,
@@ -83,7 +83,7 @@
       "Logname": "Edit_Color_Wood_Hospital_Door_Setter",
       "Action": "EditImage",
       "Target": "Maps/townInterior",
-      "FromFile": "assets/png/__doors_recolor.png",
+      "FromFile": "assets/png/internal_doors_recolor.png",
       "FromArea": {
         "X": 0,
         "Y": 18,
@@ -105,9 +105,9 @@
       "Action": "EditData",
       "Target": "Data/ChairTiles",
       "Entries": {
-        "__stuff/14/16": "1/1/down/chair/-1/-1/false",
-        "__stuff/18/16": "1/1/right/chair/-1/-1/false",
-        "__stuff/22/16": "1/1/left/chair/-1/-1/false"
+        "decorations_structures/14/16": "1/1/down/chair/-1/-1/false",
+        "decorations_structures/18/16": "1/1/right/chair/-1/-1/false",
+        "decorations_structures/22/16": "1/1/left/chair/-1/-1/false"
       }
     }
   ]
