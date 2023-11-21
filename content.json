@@ -4,7 +4,7 @@
     {
       "Logname": "Load_png",
       "Action": "Load",
-      "Target": "Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/internal_doors_recolor, Maps/decorations_structures, Maps/vanilla_decorations_structures",
+      "Target": "Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/internal_doors_recolor, Maps/__stuff, Maps/__vanilla_stuff",
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {
@@ -105,9 +105,9 @@
       "Action": "EditData",
       "Target": "Data/ChairTiles",
       "Entries": {
-        "decorations_structures/14/16": "1/1/down/chair/-1/-1/false",
-        "decorations_structures/18/16": "1/1/right/chair/-1/-1/false",
-        "decorations_structures/22/16": "1/1/left/chair/-1/-1/false"
+        "__stuff/14/16": "1/1/down/chair/-1/-1/false",
+        "__stuff/18/16": "1/1/right/chair/-1/-1/false",
+        "__stuff/22/16": "1/1/left/chair/-1/-1/false"
       }
     }
   ]
