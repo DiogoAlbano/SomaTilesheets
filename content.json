@@ -1,17 +1,33 @@
 {
   "Format": "1.29.3",
+  "DynamicTokens": [
+    {
+      "Name": "Switcher",
+      "Value": "0",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "Switcher",
+      "Value": "1",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": false
+      }
+    }
+  ],
   "Changes": [
     {
       "Logname": "Load_png",
       "Action": "Load",
-      "Target": "Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/internal_doors_recolor, Maps/__stuff, Maps/__vanilla_stuff",
+      "Target": "Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/internal_doors_recolor, Maps/__stuff, Maps/__vanilla_stuff, Maps/world_map_0, Maps/great_forest",
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {
       "Logname": "Set_world_map",
       "Action": "EditImage",
       "Target": "LooseSprites/map",
-      "FromFile": "assets/png/world_map.png",
+      "FromFile": "assets/png/world_map_{{Switcher}}.png",
       "When": {
         "HasMod": "somaraezel.NovoMundoChapter1"
       }
