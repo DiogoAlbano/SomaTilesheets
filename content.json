@@ -33,6 +33,54 @@
       }
     },
     {
+      "Action": "Load",
+      "Target": "Maps/TrainArea",
+      "FromFile": "assets/F0_TransportArea.tmx",
+      "When": {
+        "HasMod | contains = somaraezel.NovoMundoChapter1": false,
+        "HasMod | contains = somaraezel.SomaCore": true
+
+      }
+    },
+    {
+      "Logname": "TrainArea_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/TrainArea",
+      "MapProperties": {
+        "AmbientLight": "255 255 255"
+      },
+      "When": {
+        "HasMod | contains = somaraezel.NovoMundoChapter1": false,
+        "HasMod | contains = somaraezel.SomaCore": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "somaraezel.SomaCore/trainAreaTilesheets",
+      "Entries": {
+        "tilesheets": {
+          "tilesheet0": "Maps/Mines/mine",
+          "tilesheet1": "Maps/paths",
+          "tilesheet2": "Maps/__stuff",
+          "tilesheet3": "Maps/spring_seasonal_nm_tilesheet",
+          "tilesheet4": null,
+          "tilesheet5": null,
+          "tilesheet6": null,
+          "tilesheet7": null,
+          "tilesheet8": null,
+          "tilesheet9": null,
+          "tilesheet10": null,
+          "tilesheet11": null,
+          "tilesheet12": null,
+          "tilesheet13": null
+        }
+      },
+      "When": {
+        "HasMod | contains = somaraezel.NovoMundoChapter1": false,
+        "HasMod | contains = somaraezel.SomaCore": true
+      }
+    },
+    {
       "Logname": "Edit_Color_Wood_Door_Movement",
       "Action": "EditImage",
       "Target": "LooseSprites/Cursors",
