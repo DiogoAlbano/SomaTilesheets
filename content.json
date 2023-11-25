@@ -16,7 +16,28 @@
       }
     }
   ],
+  "CustomLocations": [
+    {
+      "Logname": "Add_testroom",
+      "Name": "Custom_nmtestroom",
+      "FromMapFile": "assets/FF_testroom.tmx"
+    },
+    {
+      "Logname": "Add_npctroom",
+      "Name": "Custom_nmnpcroom",
+      "FromMapFile": "assets/FE_npcroom.tmx"
+    }
+  ],
   "Changes": [
+    {
+      "Logname": "Town_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_nmnpcroom",
+      "MapProperties": {
+        "AmbientLight": "255 255 255",
+        "Warp": "-1 1 Town 125 50 -1 2 Town 125 50"
+      }
+    },
     {
       "Logname": "Load_png",
       "Action": "Load",
@@ -37,7 +58,6 @@
       "Target": "Maps/TrainArea",
       "FromFile": "assets/F0_TransportArea.tmx",
       "When": {
-        "HasMod | contains = somaraezel.NovoMundoChapter1": false,
         "HasMod | contains = somaraezel.SomaCore": true
 
       }
@@ -50,7 +70,6 @@
         "AmbientLight": "255 255 255"
       },
       "When": {
-        "HasMod | contains = somaraezel.NovoMundoChapter1": false,
         "HasMod | contains = somaraezel.SomaCore": true
       }
     },
@@ -76,7 +95,6 @@
         }
       },
       "When": {
-        "HasMod | contains = somaraezel.NovoMundoChapter1": false,
         "HasMod | contains = somaraezel.SomaCore": true
       }
     },

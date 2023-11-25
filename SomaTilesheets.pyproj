@@ -27,6 +27,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\F0_TransportArea.tmx" />
+    <Content Include="assets\FE_npcroom.tmx" />
+    <Content Include="assets\FF_testroom.tmx" />
     <Content Include="assets\png\fall_seasonal_nm_tilesheet.png" />
     <Content Include="assets\png\great_forest.png" />
     <Content Include="assets\png\spring_seasonal_nm_tilesheet.png" />

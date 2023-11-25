@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="125" height="125" tilewidth="16" tileheight="16" infinite="0" nextlayerid="100" nextobjectid="302">
+ <properties>
+  <property name="AmbientLight" value="255 255 255"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="3936" columns="32">
+  <image source="__stuff.png" width="512" height="1976"/>
+ </tileset>
+ <tileset firstgid="3937" name="2" tilewidth="16" tileheight="16" tilecount="3936" columns="32">
+  <image source="__vanilla_stuff.png" width="512" height="1976"/>
+ </tileset>
+ <tileset firstgid="7873" name="3" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
+  <image source="spring_seasonal_nm_tilesheet.png" width="512" height="1024"/>
+ </tileset>
+ <layer id="7" name="Back" width="125" height="125">
+  <data encoding="base64" compression="zlib">
+   eJztzulNQlEURtFTymkIEfsQ1D7EoQ9B7QMH+gCHCviaeLmJrpXs/3vWVWdpns7TIl0k/q7LrlqmVbpK1+mmRx4xtduuWqe7dJ8e0mOPPGJqT121Sdv0nF7Sa488Ymq7rnpL7+kjfaZ9jzxiaoeuOqav9J1+0m+PPAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+uxPZnhrv
+  </data>
+ </layer>
+ <layer id="9" name="Buildings" width="125" height="125">
+  <data encoding="base64" compression="zlib">
+   eJztzrERABAUBbCn0bL/gGoj2MK/I5kgCb9aI9nVCa7qM5mtegEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwIsOasQCDQ==
+  </data>
+ </layer>
+ <layer id="15" name="Paths" width="125" height="125">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgM/QkAAE=
+  </data>
+ </layer>
+ <layer id="17" name="Front" width="125" height="125">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgM/QkAAE=
+  </data>
+ </layer>
+ <layer id="19" name="AlwaysFront" width="125" height="125">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgM/QkAAE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <objectgroup id="10" name="Buildings">
+  <object id="301" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="nm_Action" value="teste"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="16" name="Paths"/>
+ <objectgroup id="18" name="Front"/>
+ <objectgroup id="20" name="AlwaysFront" opacity="0.88"/>
+</map>

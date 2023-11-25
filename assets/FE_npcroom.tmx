@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="40" nextobjectid="295">
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="3936" columns="32">
+  <image source="__stuff.png" width="512" height="1976"/>
+ </tileset>
+ <tileset firstgid="3937" name="2" tilewidth="16" tileheight="16" tilecount="3936" columns="32">
+  <image source="__vanilla_stuff.png" width="512" height="1976"/>
+ </tileset>
+ <tileset firstgid="7873" name="3" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
+  <image source="spring_seasonal_nm_tilesheet.png" width="512" height="1024"/>
+ </tileset>
+ <layer id="1" name="Back" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt0c0NgmAQhOGvlG0IAfsQwT5ApQTuINIH8tMHIlTguyVswokwyZNJ5rCXdW6bFOKchxN8BAhxNu5654IIV8RIcDPumpTOcMcDT+Ri2zUlXeGFGm80Yts1Lf1Bhx4DRrHtmon+YsYPC1ax7Zot/qU5/nX8ay//+gPI0NQ6
+  </data>
+ </layer>
+ <layer id="3" name="Back2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="23" name="Back3" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="24" name="Back4" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="5" name="Back5" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="25" name="Back6" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="7" name="Back7" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="9" name="Buildings" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxLYmRgSKIQJwMxNUAzFc1ppIJZo+aMmjNqztAwZyEQL6IQLwZiAOq2Ico=
+  </data>
+ </layer>
+ <layer id="11" name="Buildings2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="26" name="Buildings3" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="27" name="Buildings4" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="28" name="Buildings5" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="29" name="Buildings6" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="13" name="Buildings7" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="15" name="Paths" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="17" name="Front" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="30" name="Front2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="35" name="Front3" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="19" name="AlwaysFront" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="21" name="AlwaysFront2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="33" name="AlwaysFront3" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="36" name="AlwaysFront5" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="34" name="AlwaysFront4" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="37" name="AlwaysFront6" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="38" name="AlwaysFront7" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <objectgroup id="10" name="Buildings"/>
+ <objectgroup id="16" name="Paths"/>
+ <objectgroup id="18" name="Front"/>
+ <objectgroup id="20" name="AlwaysFront" opacity="0.88"/>
+</map>
