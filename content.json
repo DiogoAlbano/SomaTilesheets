@@ -41,7 +41,7 @@
     {
       "Logname": "Load_png",
       "Action": "Load",
-      "Target": "Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/internal_doors_recolor, Maps/__stuff, Maps/__vanilla_stuff, Maps/world_map_0, Maps/great_forest",
+      "Target": "Maps/spring_st_tilesheet, Maps/fall_seasonal_nm_tilesheet, Maps/spring_seasonal_nm_tilesheet, Maps/summer_seasonal_nm_tilesheet, Maps/winter_seasonal_nm_tilesheet, Maps/internal_doors_recolor, Maps/__stuff, Maps/__vanilla_stuff, Maps/world_map_0, Maps/great_forest",
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {

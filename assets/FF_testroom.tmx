@@ -42,7 +42,7 @@
   <object id="301" name="TileData" x="32" y="32" width="16" height="16">
    <properties>
     <property name="Action" value=""/>
-    <property name="nm_Action" value="teste"/>
+    <property name="nm_Action" value="ATMCarpenterChoiceMenu"/>
    </properties>
   </object>
  </objectgroup>

@@ -32,6 +32,7 @@
     <Content Include="assets\png\fall_seasonal_nm_tilesheet.png" />
     <Content Include="assets\png\great_forest.png" />
     <Content Include="assets\png\spring_seasonal_nm_tilesheet.png" />
+    <Content Include="assets\png\spring_st_tilesheet.png" />
     <Content Include="assets\png\summer_seasonal_nm_tilesheet.png" />
     <Content Include="assets\png\winter_seasonal_nm_tilesheet.png" />
     <Content Include="assets\png\internal_doors_recolor.png" />
